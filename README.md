@@ -79,7 +79,7 @@ $ usermod -aG $USER uucp
 ## Hardware
 
 ### Micro controler
-[Shop](https://www.aliexpress.com/item/1005004005660504.html)
+[Article link](https://www.aliexpress.com/item/1005004005660504.html)
 
 Official Raspberry Pi Pico Board RP2040 Dual-Core 264KB ARM Low-Power Microcomputers High-Performance Cortex-M0+ Processor
 Specification:
@@ -102,7 +102,14 @@ Specification:
 
 ### Display
 
-[Shop](https://www.aliexpress.com/item/32850288143.html?spm=a2g0o.order_detail.order_detail_item.9.525839d3tnrjdH&gatewayAdapt=glo2esp)
+[Article link](https://www.aliexpress.com/item/32850288143.html)
+
 [Display: 0.91 inch OLED Display Module 128×32 SSD1306 GME12832-11 Interface IIC](https://goldenmorninglcd.com/oled-display-module/0.91-inch-128x32-ssd1306-gme12832-11/)
+
 ![0.91 Inch OLED Display 4PIN](img/0.91_inch_OLED_module.jpg)
 
+### Breadboard kit
+
+[Article link](https://www.aliexpress.com/item/1005004480364105.html)
+
+![Breadboard Kit components](/img/breadboard_%20kit.jpg)
