@@ -1,9 +1,9 @@
 import machine
 import utime
-import dht
+from dht import DHT11
 
-pin = machine.Pin(2)
-sensor = dht.DHT11(pin)
+pin = machine.Pin(2, machine.Pin.OUT, machine.Pin.PULL_DOWN)
+sensor = DHT11(pin)
 
 while True:
         temp = sensor.temperature()
@@ -11,3 +11,4 @@ while True:
         print("Temperature: {}C".format(temp))
         print("Humidity: {}".format(humidity))
         utime.sleep(3)
+        
