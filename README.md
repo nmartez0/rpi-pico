@@ -13,18 +13,18 @@ Raspberry PI Pico projects
 Packages and SDK are in AUR repositories, therefore you need a tool such as pikaur to install them:
 
 ```bash
-$ pikaur -S openocd-picoprobe pico-sdk openocd-picoprobe picotool python3-pip
-$ pip install rshell # As root
+$pikaur -S openocd-picoprobe pico-sdk openocd-picoprobe picotool python3-pip
+$pip install rshell # As root
 
 ```
 
 Visual Studio Code extensions
 
 ```bash
-$ code --install-extension ms-python.python
-$ code --install-extension visualstudioexptteam.vscodeintellicode
-$ code --install-extension ms-python.vscode-pylance
-$ code --install-extension paulober.pico-w-go
+$code --install-extension ms-python.python
+$code --install-extension visualstudioexptteam.vscodeintellicode
+$code --install-extension ms-python.vscode-pylance
+$code --install-extension paulober.pico-w-go
 ```
 
 Environment variables
@@ -65,8 +65,6 @@ ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0004", TAG+="uaccess"
 
 ```
 
-Now, 
-
 Note: It might be necessary to add your user to the ttyAMC0 device:
 
 ```bash
@@ -79,6 +77,7 @@ $ usermod -aG $USER uucp
 ## Hardware
 
 ### Micro controler
+
 [Article link](https://www.aliexpress.com/item/1005004005660504.html)
 
 Official Raspberry Pi Pico Board RP2040 Dual-Core 264KB ARM Low-Power Microcomputers High-Performance Cortex-M0+ Processor
@@ -98,7 +97,7 @@ Specification:
 - Accelerated floating-point libraries on-chip
 - 8 × Programmable I/O (PIO) state machines for custom peripheral support
 
-![Raspberry Pi Pico Board RP2040](img/Pi_Pico_Board_RP2040.jpg)
+![Raspberry Pi Pico Board RP2040](assets/img/Pi_Pico_Board_RP2040.jpg)
 
 ### Display
 
@@ -106,10 +105,10 @@ Specification:
 
 [Display: 0.91 inch OLED Display Module 128×32 SSD1306 GME12832-11 Interface IIC](https://goldenmorninglcd.com/oled-display-module/0.91-inch-128x32-ssd1306-gme12832-11/)
 
-![0.91 Inch OLED Display 4PIN](img/0.91_inch_OLED_module.jpg)
+![0.91 Inch OLED Display 4PIN](assets/img/0.91_inch_OLED_module.jpg)
 
 ### Breadboard kit
 
 [Article link](https://www.aliexpress.com/item/1005004480364105.html)
 
-![Breadboard Kit components](/img/breadboard_%20kit.jpg)
+![Breadboard Kit components](assets//img/breadboard_%20kit.jpg)
